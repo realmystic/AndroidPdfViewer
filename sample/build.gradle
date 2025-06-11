@@ -25,7 +25,7 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation project(':android-pdf-viewer')
-//    implementation 'com.github.lion1988dev:AndroidPdfViewer:3.2.1'
+//    implementation 'com.github.realmystic:AndroidPdfViewer:3.2.5'
 
     implementation 'org.androidannotations:androidannotations-api:4.6.0'
 

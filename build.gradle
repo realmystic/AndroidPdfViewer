@@ -1,13 +1,13 @@
 plugins {
-    id 'com.android.application' version '8.7.3' apply false
-    id 'com.android.library' version '8.7.3' apply false
+    id 'com.android.application' version '8.9.1' apply false
+    id 'com.android.library' version '8.9.1' apply false
 }
 
 ext {
     tools = [
             minSdk      : 21,
-            targetSdk   : 34,
-            compileSdk  : 34,
+            targetSdk   : 36,
+            compileSdk  : 36,
             versionCode: 5,
             versionName: '3.2.5'
     ]
