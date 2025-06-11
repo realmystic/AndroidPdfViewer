@@ -23,11 +23,21 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation project(':android-pdf-viewer')
 //    implementation 'com.github.realmystic:AndroidPdfViewer:3.2.5'
 
     implementation 'org.androidannotations:androidannotations-api:4.6.0'
 
     annotationProcessor "org.androidannotations:androidannotations:4.6.0"
+}
+
+// Force consistent Kotlin version to prevent duplicate class errors
+configurations.all {
+    resolutionStrategy {
+        force "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+        force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"
+        force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+        force "org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22"
+    }
 }
