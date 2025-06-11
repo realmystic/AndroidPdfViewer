@@ -9,6 +9,6 @@ ext {
             targetSdk   : 36,
             compileSdk  : 36,
             versionCode: 5,
-            versionName: '3.2.5'
+            versionName: '3.2.7'
     ]
 }
